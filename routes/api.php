@@ -9,14 +9,19 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\OrderController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\WishlistController;
-use App\Http\Controllers\PaymentMethodController;
+use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\StaffController;
 use App\Http\Controllers\TransactionController;
 use App\Http\Controllers\UserTransactionController;
 use App\Http\Controllers\InventoryController;
+use App\Http\Controllers\RequestOrderController;
+use App\Http\Controllers\ReviewController;
+use App\Http\Controllers\NotificationController;
 use App\Http\Controllers\WarehouseController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\BrandController;
+
 // Public routes
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/login', [AuthController::class, 'login']);
