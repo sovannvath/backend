@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: shopsync-backend-new
+    env: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./shopsync-backend-new/Dockerfile
+    startCommand: php artisan serve --host=0.0.0.0 --port=8000
+
