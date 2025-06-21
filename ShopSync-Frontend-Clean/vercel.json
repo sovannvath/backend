@@ -1,9 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "https://laravel-wtc.onrender.com/api/:path*"
-    }
-  ]
-}
-
